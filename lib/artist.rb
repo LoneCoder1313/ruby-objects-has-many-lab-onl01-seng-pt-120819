@@ -8,7 +8,7 @@ def initialize (name)
 end 
 
 def songs 
-  Song.all {|n| }
+  Song.all.select {|n| }
 end 
 
 end 
