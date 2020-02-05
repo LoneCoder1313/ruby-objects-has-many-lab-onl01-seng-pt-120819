@@ -3,4 +3,10 @@ class Artist
   attr_accessor :name, :song 
   
   
-def in
+def initialize (name)
+  @name = name 
+  @song = []
+end 
+
+
+end 
