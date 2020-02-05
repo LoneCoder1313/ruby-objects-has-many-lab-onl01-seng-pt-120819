@@ -5,5 +5,7 @@ class Song
   
 def initialize(name)
   @name = name 
-  @@all << self.all
+  @@all << self
+end 
+
 end 
