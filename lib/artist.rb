@@ -9,7 +9,7 @@ end
 
 def songs 
   Song.all.select do |song|
-    song.artist == self
+    song.artist == self 
   end 
 end 
 
@@ -18,7 +18,7 @@ def add_song (song)
  end 
   
   def add_song_by_name(song_name)
-    dong_name 
+    song_name 
   end 
   
   
